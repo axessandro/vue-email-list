@@ -16,3 +16,8 @@ h1{
 body{
     background-color: #191919;
 }
+
+.loading{
+    text-align: center;
+    width: 100%;
+}

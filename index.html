@@ -22,10 +22,10 @@
 
     <main>
         <div class="container" id="root">
-            <ul>
-                <li v-for="(mail) in mailsArray" v-if="mailsArray.length > 8">{{mail}}</li>
-                <div class="loading" v-else>CON CALMA CE LA FACCIAMO</div>
+            <ul v-if="mailsArray.length > 8">
+                <li v-for="(mail) in mailsArray" >{{mail}}</li>
             </ul>
+            <div class="loading" v-else>CON CALMA CE LA FACCIAMO</div>
         </div>
     </main>
 
